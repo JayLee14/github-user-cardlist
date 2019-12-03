@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
       <Form onSubmit={addNewCard} />
-      <CardList cards={cards} />
+      <CardList cards={cards} setCards={setCards} />
     </>
   );
 };
